@@ -36,7 +36,7 @@ module Mongoid
       protected
 
       def by_star_default_field
-        :created_at
+        :updated_at
       end
 
       def before_query(time, options={})
